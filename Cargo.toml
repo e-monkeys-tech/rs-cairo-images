@@ -1,0 +1,12 @@
+[package]
+name = "rs_cairo_images"
+version = "0.1.0"
+edition = "2018"
+autoexamples = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+png = "0.17.1"
+gtk4 = { git = "https://github.com/gtk-rs/gtk4-rs.git" }
+#cairo-rs-colors = { version = "0.15.0", features = ["png"] }
